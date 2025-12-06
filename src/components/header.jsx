@@ -12,7 +12,7 @@ export default function Header() {
         <div id="header">
             <ul id="header_list">
                 <li className="home">
-                     <Link to="/" className='elemHeader'>HOME</Link>
+                     <Link to="/POTFOLIO" className='elemHeader'>HOME</Link>
                 </li>
                 <li className="about">
                      <Link to="/about" className='elemHeader'>ABOUT</Link>
@@ -25,7 +25,7 @@ export default function Header() {
                 </li>
             </ul>
             <Routes>
-                <Route path="/" element={<Home/>}></Route>
+                <Route path="/POTFOLIO" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/projects" element={<Projects/>}></Route>
                 <Route path="/skills" element={<Skills/>}></Route>
