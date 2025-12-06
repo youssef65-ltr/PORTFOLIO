@@ -1,0 +1,47 @@
+* {
+    --primary-color : #6750A4 ;
+}
+#header {
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#header_list {
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+    border: solid 5px black;
+    box-shadow: 10px 10px 0 black;
+    border-radius: 20px;
+    display:flex ;
+    gap: 39px;
+    justify-content: center;
+    /* remove margin : quto if you want to add something outsite header_list */
+    margin: auto;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+#header_list .elemHeader{
+    font-family: "McLaren", sans-serif;
+    text-decoration: none;
+    color: black;
+    height: 46px;
+    padding: 10px;
+    font-size: 32px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#header_list li{
+    list-style:none;
+}
+#header_list .elemHeader:hover{
+    background-color:  var(--primary-color);
+    color: white;
+    cursor:pointer;
+}
+
+
+

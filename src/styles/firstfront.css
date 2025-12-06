@@ -1,0 +1,50 @@
+.hero {
+    width: 600px;
+    height: 800px;
+    margin-left: 32px;
+    padding: 0px 49px 0px 49px ;
+}
+
+.text-hero {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 96px;
+    width: 602px;
+    height: fit-content;
+}
+.text-hero .red {
+    background-color: #D0181C;
+    display: inline-block;
+    transform:rotate(1deg);
+}
+.text-hero .yellow {
+    background-color: #FFCC00;
+    display: inline-block;
+    transform:rotate(-1deg);
+}
+.image{
+    width: 500px;
+    align-self: center;
+    margin-right: 44px;
+    height: auto;
+    border-radius:20px;
+    border: 5px solid black;
+    box-shadow: 10px 10px 0 black;
+}
+
+#firstfront {
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+/* i will be modified this part add flex-box */
+.buttons-hero button {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: "McLaren", sans-serif;
+    font-size: 32px;
+}

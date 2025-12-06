@@ -1,0 +1,12 @@
+ 
+* {
+    --primary-color : #6750A4 ;
+}
+body {
+    list-style: none;
+    text-decoration: none;
+    font-family: "McLaren", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+}
