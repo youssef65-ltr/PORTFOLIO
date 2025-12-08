@@ -1,0 +1,160 @@
+.hero-section {
+    width: 50%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.hero-text {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 96px;
+    width: 600px;
+    height: fit-content;
+    justify-self: center;
+    line-height: normal;
+}
+
+.hero-text .text-highlight-red {
+    background-color: #D0181C;
+    display: inline-block;
+    transform: rotate(1deg);
+}
+
+.hero-text .text-highlight-yellow {
+    background-color: #FFCC00;
+    display: inline-block;
+    transform: rotate(-1deg);
+}
+
+.hero-image {
+    width: 600px;
+    display: flex;        /* optional: centers the image */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-profile {
+    width: 100%;
+    height: auto;
+    max-width: 600px;     /* optional limit */
+    border-radius: 20px;
+    outline: 5px solid black;
+    box-shadow: 10px 10px 0 black;
+}
+
+
+#home-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* button */
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.hero-buttons button{
+    border: solid 3px black;
+    width: 300px;
+    border-radius: 10px ;
+    background-color: white;
+    font-size: 32px;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+.hero-buttons button:hover {
+    background-color: black;
+    color:white;
+}
+
+
+/* skills-marquee */
+
+.home-skills{
+        margin: 100px 0;
+}
+
+.home-skills h1 {
+    color: white;
+    margin-left: 100px;
+    font-weight:900;
+    font-size: 50px;
+    cursor: pointer;
+}
+.marquee-content{
+    width: 90%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
+    border: solid 5px black;
+    display: flex;
+    justify-self: center;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+.marquee-content::-webkit-scrollbar{
+    display:none;
+}
+
+.marquee-content .group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+    animation: spin 20s infinite linear;
+    padding-left: 8em;
+}
+
+.marquee-content img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+@keyframes spin{
+    form{translate: 0;}
+    to{translate: -100%;}
+}
+
+
+/* projects*/
+
+.home-projects{
+    margin:100px 0 ;
+}
+
+.home-projects h1 {
+    color: white;
+    margin-left: 100px;
+    font-weight:900;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.projects-content{
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project{
+    width:48%;
+    height: 300px;
+    background-color: rgb(195, 149, 0);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.project:hover{
+    transform: translate(-2%,-2%);
+    box-shadow: 10px 10px 0 black;
+    outline: 4px solid black;
+}
