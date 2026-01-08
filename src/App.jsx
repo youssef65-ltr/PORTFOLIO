@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom';
 function App() {
   return (
         <div>
-           <BrowserRouter basename="/PORTFOLIO">
+           <BrowserRouter>
                 <Header/>
             </BrowserRouter>
         </div>
