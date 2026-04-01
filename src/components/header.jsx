@@ -24,12 +24,7 @@ export default function Header() {
                      <Link to="/skills" className='elemHeader'>SKILLS</Link>
                 </li>
             </ul>
-            <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path="/about" element={<About/>}></Route>
-                <Route path="/projects" element={<Projects/>}></Route>
-                <Route path="/skills" element={<Skills/>}></Route>
-            </Routes>
+            
         </div>
     )
 }
