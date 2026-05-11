@@ -10,3 +10,10 @@ body {
     padding: 0px;
     background-color: var(--primary-color);
 }
+
+.smoke {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
