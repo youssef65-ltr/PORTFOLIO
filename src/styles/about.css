@@ -1,0 +1,36 @@
+.about-section {
+    border: solid 5px black;
+    box-shadow: 10px 10px black;
+    border-radius: 20px;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #AF291E ;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.about-section-description-container {
+    width: 70%;
+}
+
+.about-section-image-container {
+    width: 200px;
+}
+
+.about-section-image-container img {
+    border: solid 3px black;
+    box-shadow: 10px 10px black;
+    width: 100%;
+}
+
+.about-section-title {
+    text-shadow: 3px 3px black;
+    font-weight: 900;
+}
+
+.about-section-text {
+    font-weight: 500;
+    font-family: "Montserrat";
+}

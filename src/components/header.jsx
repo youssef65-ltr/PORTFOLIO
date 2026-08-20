@@ -1,11 +1,7 @@
 import React from "react";
 import '../styles/header.css';
 import {Route , Routes , Link} from 'react-router-dom';
-// import pages of header
-import Home from "./homePage";
-import Projects from "./projectsPage";
-import About from "./aboutPage";
-import Skills from "./skills";
+
 
 export default function Header() {
     return (

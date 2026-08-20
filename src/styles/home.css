@@ -1,33 +1,7 @@
-
-
-.hero-section {
+#home img {
     width: 50%;
-    margin: 10px;
-    justify-content: center;
-
-}
-
-.hero-text {
-    font-family: "Montserrat";
-    font-weight: 900;
-    color: white;
-    font-size: 96px;
-    width: 100%;
-    height: fit-content;
-    justify-self: center;
-    line-height: normal;
-}
-
-.hero-text .text-highlight-red {
-    background-color: #D0181C;
-    display: inline-block;
-    transform: rotate(1deg);
-}
-
-.hero-text .text-highlight-yellow {
-    background-color: #FFCC00;
-    display: inline-block;
-    transform: rotate(-1deg);
+    display: block;
+    margin: auto;
 }
 
 .hero-image {
@@ -49,83 +23,7 @@
 }
 
 
-#home-section {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
 
-/* button */
-
-.hero-buttons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-.hero-buttons button{
-    border: solid 3px black;
-    width: 300px;
-    border-radius: 10px ;
-    background-color: white;
-    font-size: 32px;
-    padding: 10px 0;
-    transition: 0.3s;
-}
-
-.hero-buttons button:hover {
-    background-color: black;
-    color:white;
-}
-
-
-/* skills-marquee */
-
-.home-skills{
-    margin: 100px 0;
-}
-
-.home-skills h1 {
-    color: white;
-    margin-left: 100px;
-    font-weight:900;
-    font-size: 50px;
-    cursor: pointer;
-}
-.marquee-content{
-    width: 90%;
-    background-color:rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 10px 10px 0 black;
-    border: solid 5px black;
-    display: flex;
-    justify-self: center;
-    overflow-x: auto;
-    margin: 20px 0;
-}
-.marquee-content::-webkit-scrollbar{
-    display:none;
-}
-
-.marquee-content .group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8em;
-    animation: spin 20s infinite linear;
-    padding-left: 8em;
-}
-
-.marquee-content img {
-    width: 100px;
-    margin: 20px 0;
-}
-
-@keyframes spin{
-    form{translate: 0;}
-    to{translate: -100%;}
-}
 
 
 /* projects*/
@@ -170,24 +68,7 @@
 /* media screen  */
 
 
-@media screen and (max-width: 1300px) {
-    #home-section {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-section {
-        width: 70%;
-    }
-
-    .hero-image {
-        width: 70%;
-        height: 100%;
-    }
-}
 
 @media screen and (max-width : 1000px) {
     .projects-content {
@@ -197,53 +78,17 @@
     .project {
         width: 90%;
     }
-    .marquee-content img {
-        width: 80px;
-    }
 }
 
 
 @media screen and (max-width: 800px) {
 
-    #home-section .hero-buttons button {
-        width: 100%;
-    }
-    .hero-section {
-        width: 80%;
-    }
-    .hero-text {
-        font-size: 70px;
-    }
     .project {
         width: 100%;
     }
-    .marquee-content img {
-        width: 60px
-    }
+ 
 }
 
-@media screen and (max-width: 600px) {
-    #home-section .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    #home-section .hero-buttons button {
-        width: 100%;
-    }
-    .hero-section {
-        width: 90%;
-    }
-    .hero-text {
-        font-size: 60px;
-    }
-    .hero-image {
-        width: 90%;
-        height: 100%;
-    }
-    .marquee-content img {
-        width: 40px
-    }
-}
+
 
 

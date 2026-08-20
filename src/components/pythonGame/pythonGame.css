@@ -1,0 +1,8 @@
+.gameBoard {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.gameContainer {
+    text-align: center;
+}

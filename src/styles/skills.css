@@ -1,0 +1,45 @@
+#skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px ;
+}
+
+.skills-section-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skills-section-imgs img {
+    width: 50%;
+}
+
+.skills-section-skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    padding: 0px;
+}
+
+
+.skills-btn-cv {
+    border: solid 3px black;
+    width: 300px;
+    border-radius: 10px ;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+.skills-btn-cv:hover {
+    background-color: black;
+    color:white;
+}
