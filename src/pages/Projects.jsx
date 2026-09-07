@@ -1,6 +1,3 @@
-
-
-
 export default function Projects() {
     return (
         <div id='projects'>
@@ -16,9 +13,3 @@ export default function Projects() {
     )
 
 }
-
-
-
-
-
-
