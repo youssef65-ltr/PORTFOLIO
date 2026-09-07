@@ -8,7 +8,7 @@ import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/work';
-import Skills from './pages/skills';
+
 
 import background_skills from "/background_skills.jpg"
 import background from "/background.jpg"
