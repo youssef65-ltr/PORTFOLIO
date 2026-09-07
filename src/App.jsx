@@ -7,6 +7,7 @@ import { HashRouter } from 'react-router-dom';
 // import pages of header
 import Home from './pages/Home';
 import About from './pages/About';
+
 import Projects from './pages/Projects';
 import Skills from './pages/Skills'
 
